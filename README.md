@@ -1,6 +1,8 @@
 # CampaignPost
 
+An angular app developed as a coding challenge
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
+Check out live at - https://campaign-d7d29.firebaseapp.com/
 
 ## Development server
 
