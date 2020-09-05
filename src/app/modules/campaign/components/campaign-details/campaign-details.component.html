@@ -1,0 +1,55 @@
+<div class="search-bar-container">
+  <div class="search-bar row">
+    <app-chip
+      *ngFor="let hashtag of searchedHashtags; let i = index"
+      [tag]="hashtag.name"
+      [removable]="hashtag.removable"
+      (click)="addToAvailableHashtags(hashtag, i)"
+    >
+    </app-chip>
+  </div>
+</div>
+
+<div class="hashtags-container">
+  <h6 class="mr-2">Hashtags:</h6>
+  <app-chip
+      *ngFor="let hashtag of availableHashtags; let i = index"
+      [tag]="hashtag.name"
+      (click)="addToSearchedHashtags(hashtag, i)"
+    >
+    </app-chip>
+</div>
+
+<div class="your-posts-container">
+  <h6 class="left-page-margin">Your Posts</h6>
+  <div class="posts">
+    <app-post
+      *ngFor="let post of yourPosts"
+      class="mr-2"
+      [imageUrl]="post?.imageUrl"
+      [uploadedOn]="post?.uploadedOn"
+      [type]="post?.type"
+      [likesCount]="post?.likesCount"
+      [commentCount]="post?.commentCount"
+    >
+    </app-post>
+  </div>
+</div>
+
+<div class="similar-posts-container">
+  <div class="left-page-margin d-flex justify-content-between">
+    <h6>Similar posts</h6>
+    <h6>{{ similarPostsCount }}</h6>  </div>
+  <div class="similar-posts">
+    <app-post
+      *ngFor="let post of similarPosts"
+      class="mr-2"
+      [imageUrl]="post?.imageUrl"
+      [uploadedOn]="post?.uploadedOn"
+      [type]="post?.type"
+      [likesCount]="post?.likesCount"
+      [commentCount]="post?.commentCount"
+    >
+    </app-post>
+  </div>
+</div>

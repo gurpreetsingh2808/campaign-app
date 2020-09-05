@@ -1,0 +1,12 @@
+[
+  {
+    "id": 3,
+    "name": "food",
+    "removable": true
+  },
+  {
+    "id": 4,
+    "name": "kofluencer",
+    "removable": true
+  }
+]

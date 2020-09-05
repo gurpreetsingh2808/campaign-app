@@ -1,0 +1,28 @@
+<div class="card text-center">
+  <div class="card-body">
+    <div class="overlay">
+      <div class="upload-date">
+        <fa-icon [icon]="['far', 'clock']"></fa-icon>
+        <p>{{ uploadedOn }}</p>
+      </div>
+      <div class="upload-type">
+        <fa-icon *ngIf="type=='image'" [icon]="['fas', 'image']"></fa-icon>
+        <fa-icon *ngIf="type=='video'" [icon]="['fas', 'play-circle']"></fa-icon>
+      </div>
+    </div>
+    <div class="img-container">
+      <img [src]="imageUrl" />
+    </div>
+  </div>
+  <div class="card-footer">
+    <div>
+        <fa-icon [icon]="['fas', 'heart']"></fa-icon>
+        <p>{{ likesCount | count}}</p>
+    </div>
+
+    <div>
+        <fa-icon [icon]="['fas', 'comment-dots']"></fa-icon>
+        <p>{{ commentCount | count}}</p>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "assets/images/posts/pizza2.png",
+    "uploadedOn": "1 Sept",
+    "type": "video",
+    "tags": ["pizza", "kofluencer"],
+    "likesCount": 802,
+    "commentCount": 50
+  },
+  {
+    "id": 2,
+    "imageUrl": "assets/images/posts/pizza3.png",
+    "uploadedOn": "31 Aug",
+    "type": "image",
+    "tags": ["kofluence", "pizza"],
+    "likesCount": 112,
+    "commentCount": 28
+  },
+  {
+    "id": 3,
+    "imageUrl": "assets/images/posts/pizza4.png",
+    "uploadedOn": "13 Aug",
+    "type": "image",
+    "tags": ["pizza", "cheeselove", "yummy"],
+    "likesCount": 12222,
+    "commentCount": 8834
+  },
+  {
+    "id": 4,
+    "imageUrl": "assets/images/posts/pizza1.png",
+    "uploadedOn": "1 Aug",
+    "type": "video",
+    "tags": ["kofluencer", "foodie"],
+    "likesCount": 999,
+    "commentCount": 677
+  },
+  {
+    "id": 5,
+    "imageUrl": "assets/images/posts/pizza4.png",
+    "uploadedOn": "28 July",
+    "type": "video",
+    "tags": ["kofluencer"],
+    "likesCount": 9772,
+    "commentCount": 540
+  },
+  {
+    "id": 6,
+    "imageUrl": "assets/images/posts/pizza3.png",
+    "uploadedOn": "3 June",
+    "type": "image",
+    "tags": ["pizza", "food"],
+
+    "likesCount": 300,
+    "commentCount": 50
+  }
+]
